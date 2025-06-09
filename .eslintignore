@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+dist/
+build/
+coverage/
+
+# production
+.env
+.env.*.local
+
+# misc
+*.log
+
+# Storybook
+.storybook-static/
+
+# Express.js
+express-logs/
+logs/
+tmp/
+pids/
+
+# Ignore compiled TypeScript files
+# *.js
+# *.jsx
+# *.d.ts
+
+# Husky
+.husky
