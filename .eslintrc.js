@@ -17,10 +17,11 @@ module.exports = {
     rules: {
         'react/react-in-jsx-scope': 'off',
         'semi': ['error', 'always'],
+        'quotes': ['error', 'single'],
     },
     settings: {
         react: {
-            version: "detect",
+            version: 'detect',
         },
     },
     overrides: [
@@ -35,6 +36,7 @@ module.exports = {
             rules: {
                 'react/react-in-jsx-scope': 'off',
                 'semi': ['error', 'always'],
+                'quotes': ['error', 'single'],
             },
         },
         {
@@ -44,6 +46,7 @@ module.exports = {
             rules: {
                 'react/react-in-jsx-scope': 'off',
                 'semi': ['error', 'always'],
+                'quotes': ['error', 'single'],
             },
         },
     ],
